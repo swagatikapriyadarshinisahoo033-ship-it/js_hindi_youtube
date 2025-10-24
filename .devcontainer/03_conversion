@@ -1,1 +1,43 @@
+ let score=33
+ console.log(typeof score)
+// //you can also write this as method
+ console.log(typeof (score))
+ let score2="33"
+ console.log(typeof score2)//it's print string 
+// // you can chage it use conversion method
+ let score3=Number(score2)//it's make it conversion
+ console.log(typeof score3)
 
+//so we can take a strig and conversion into a number so what happend?let's see
+ let sd="32abc"
+ console.log(typeof sd)
+ let sd2=Number(sd)
+ console.log(typeof sd2)//it's change the sting into a number but it's not a number it's the real problem of js
+console.log(sd2)//it's output is not a number
+
+/*
+"33"=>33
+"33abc"=>NaN
+null=>0
+true/false=1/0
+*/
+
+let isloggedin = 1;
+let booleanisloggedin = Boolean(isloggedin);
+console.log(booleanisloggedin);
+
+// 1=>true,0=>false
+//""=>false,"swag"=>true
+
+let s=""
+let s2=Boolean(s)
+console.log(s2)
+
+let q="swag"
+let q2=Boolean(q)
+console.log(q2)
+
+let w=3
+let w2=Boolean(w)
+console.log(w)
+console.log(typeof(w2))
